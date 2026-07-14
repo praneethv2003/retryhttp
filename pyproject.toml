@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "retryhttp"
+name = "retryhttp2"
 version = "0.1.0"
 description = "Zero-config HTTP retries with exponential backoff, jitter, and OAuth2 token refresh for httpx and requests"
 readme = "README.md"
@@ -40,9 +40,12 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/praneethvedantham/retryhttp"
-Repository = "https://github.com/praneethvedantham/retryhttp"
-Issues = "https://github.com/praneethvedantham/retryhttp/issues"
+Homepage = "https://github.com/praneethv2003/retryhttp"
+Repository = "https://github.com/praneethv2003/retryhttp"
+Issues = "https://github.com/praneethv2003/retryhttp/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/retryhttp"]
