@@ -1,6 +1,6 @@
 # retryhttp
 
-Zero-config HTTP retries with exponential backoff, jitter, and OAuth2 token refresh — for both **httpx** and **requests**.
+Zero-dependency HTTP retries for both **httpx** and **requests**: exponential backoff with jitter, per-status retry policies, and OAuth2 token refresh, with sensible defaults so it works with no config.
 
 ```python
 from retryhttp import RetryClient
